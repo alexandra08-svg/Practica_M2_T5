@@ -5,35 +5,25 @@
     <title>Practica_M2_T5_AlexandraLozano</title>
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
     <style>
-        body { margin: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #2c3e50; color: white; }
-        .header { padding: 25px; text-align: center; background: #1a252f; border-bottom: 3px solid #3498db; }
-        h1 { margin: 0; font-size: 1.8rem; }
-        p { margin: 10px 0 0; opacity: 0.8; }
-        model-viewer { width: 100%; height: 75vh; margin: 0 auto; display: block; background-color: #34495e; }
-        .footer { padding: 15px; text-align: center; font-size: 0.9rem; background: #1a252f; }
+        body { margin: 0; background-color: #2c3e50; color: white; font-family: sans-serif; }
+        .header { padding: 20px; text-align: center; background: #1a252f; }
+        model-viewer { width: 100%; height: 80vh; display: block; margin: 0 auto; }
     </style>
 </head>
 <body>
 
     <div class="header">
         <h1>Practica_M2_T5_AlexandraLozano</h1>
-        <p>Procesamiento de Nubes de Puntos - Modelo 3D Optimizado</p>
+        <p>Modelo 3D: Reina de la Noche</p>
     </div>
 
     <model-viewer 
-        src="reina_noche.obj" 
-        alt="Modelo 3D optimizado por Alexandra Lozano" 
+        src="Practica_M2_T5_AlexandraLozano.obj" 
+        alt="Modelo 3D de Alexandra Lozano" 
         auto-rotate 
         camera-controls 
-        shadow-intensity="1"
-        exposure="1"
-        environment-image="neutral"
-        ar>
+        shadow-intensity="1">
     </model-viewer>
-
-    <div class="footer">
-        Modelo simplificado a menos de 10.000 vértices mediante MeshLab
-    </div>
 
 </body>
 </html>
